@@ -10,15 +10,17 @@ public class Main {
   aluno.setNota3(8.0);
 
   aluno.calcularMedia();
-  System.out.println("Média:"+aluno.calcularMedia());
+   double media = aluno.calcularMedia();
+  System.out.println("Média:"+media);
   
   aluno.setNota1(10.0);
   aluno.setNota2(9.5);
   aluno.setNota3(9.0);
 
-  double media = aluno.calcularMedia();
-  System.out.println("Nova Média:"+media);
+  aluno.calcularMedia();
+  System.out.println("Nova Média:"+aluno.calcularMedia());
 
     }
   }
   
+
