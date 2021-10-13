@@ -2,7 +2,7 @@
     public static void main(String[] args) throws Exception {
         System.out.println();
         Lutador ryu = new Lutador("Ryu",100,10);
-        Lutador bison = new Lutador("bison",100,12);
+        Lutador bison = new Lutador("Bison",100,12);
         ryu.aplicarGolpe(bison);
         ryu.aplicarGolpe(bison);
         ryu.aplicarGolpe(bison);
