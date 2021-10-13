@@ -1,7 +1,5 @@
 public class Main {
       public static void main(String[] args) {
-       
-   System.out.println("                              ");
 
   Aluno aluno = new Aluno("Maria Eduarda Barboza Santos", "03896585598");
 
