@@ -2,7 +2,7 @@ public class Main {
       public static void main(String[] args) {
        
    System.out.println("                              ");
-    Endereco endereco = new Endereco("Rua Machado Neto", "267", "Condomínio Villa dos Palmares", "Pituba", "Salvador","29", "47450-000"); 
+    Endereco endereco = new Endereco("Rua Machado Neto", "267", "Condomínio Villa dos Palmares", "Pituba", "Salvador","BA", "47450-000"); 
         System.out.println("Rua:"+ endereco.rua); 
         System.out.println("Número:"+ endereco.numero); 
         System.out.println("Complemento:"+ endereco.complemento);
@@ -31,7 +31,7 @@ endereco.rua = "Rua Clarival do Prado";
   endereco.complemento = "Edíficio Monte Trianon";
   endereco.bairro = "Caminho das Árvores";
   endereco.cidade = "Salvador";
-  endereco.uf = "29";
+  endereco.uf = "BA";
   endereco.cep = "41820-916";
         System.out.println("Rua:"+ endereco.rua); 
         System.out.println("Número:"+ endereco.numero); 
