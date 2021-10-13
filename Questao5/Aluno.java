@@ -14,4 +14,7 @@
     this.nota2 = 0;
     this.nota2 = 0;
 }
+public double calcularMedia() {
+return (nota1+nota2+nota3) / 3;
  }
+}
