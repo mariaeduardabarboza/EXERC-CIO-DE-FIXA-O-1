@@ -1,8 +1,6 @@
 public class Main {
       public static void main(String[] args) {
        
-   System.out.println("                              ");
-
       Paciente paciente = new Paciente("038953815","Maria Eduarda Barboza Santos", "14/06/2004", "Planserv", "Feminino","Nenhuma", "O positivo");
         System.out.println("Codigo do paciente:"+paciente.codigo);
         System.out.println("Nome do paciente:"+paciente.nome);
