@@ -55,8 +55,7 @@ endereco.rua = "Rua Clarival do Prado";
         System.out.println("Especialidade do médico(a):"+medico.especialidade);
         System.out.println("Endereço do médico(a):"+medico.endereco.rua+","+medico.endereco.numero+","+medico.endereco.complemento+","+medico.endereco.bairro+","+medico.endereco.cidade+","+medico.endereco.uf+","+medico.endereco.cep);
 
-      System.out.println("                              ");
+    
         
     }
 }
-  
