@@ -2,6 +2,7 @@ public class Main {
       public static void main(String[] args) {
        
    System.out.println("                              ");
+   System.out.println("Dados do endereço:");
     Endereco endereco = new Endereco("Rua Machado Neto", "267", "Condomínio Villa dos Palmares", "Pituba", "Salvador","BA", "47450-000"); 
         System.out.println("Rua:"+ endereco.rua); 
         System.out.println("Número:"+ endereco.numero); 
@@ -11,7 +12,8 @@ public class Main {
         System.out.println("UF:"+ endereco.uf);
         System.out.println("CEP:"+endereco.cep);
 
-    System.out.println("                              "); 
+    System.out.println("                              ");
+    System.out.println("Dados do médico:"); 
 
  Medico medico = new Medico("046984321","Monalisa Nunes dos Santos Silva", "Feminino", "Dermatologista", endereco);
         System.out.println("Codigo do médico(a):"+medico.codigo);
@@ -22,10 +24,9 @@ public class Main {
 
     
     System.out.println("                              ");
-    System.out.println("Modifições dados endereço:");
+    System.out.println("Modificações dados endereço:");
     
 
-System.out.println("                              ");
 endereco.rua = "Rua Clarival do Prado";
   endereco.numero = "862";
   endereco.complemento = "Edíficio Monte Trianon";
@@ -41,7 +42,7 @@ endereco.rua = "Rua Clarival do Prado";
         System.out.println("CEP:"+endereco.cep); 
 
   System.out.println("                              "); 
-        System.out.println("Modidições dados médico");
+        System.out.println("Modificações dados médico:");
 
          medico.codigo = "083682523";
          medico.nome = "Nicole Telles dos Santos";
