@@ -18,7 +18,8 @@ public class Main {
         System.out.println("Nome do médico(a):"+medico.nome);
         System.out.println("Sexo do médico(a):"+medico.sexo);
         System.out.println("Especialidade do médico(a):"+medico.especialidade);
-         System.out.println("Endereço do médico(a):"+medico.endereco.rua+","+medico.endereco.numero+","+medico.endereco.complemento+","+medico.endereco.bairro+","+medico.endereco.cidade+","+medico.endereco.cep);
+         System.out.println("Endereço do médico(a):"+medico.endereco.rua+","+medico.endereco.numero+","+medico.endereco.complemento+","+medico.endereco.bairro+","+medico.endereco.cidade+","+medico.endereco.uf+","+medico.endereco.cep);
+
     
     System.out.println("                              ");
     System.out.println("Modifições dados endereço:");
@@ -52,11 +53,10 @@ endereco.rua = "Rua Clarival do Prado";
         System.out.println("Nome do médico(a):"+medico.nome);
         System.out.println("Sexo do médico(a):"+medico.sexo);
         System.out.println("Especialidade do médico(a):"+medico.especialidade);
-        System.out.println("Endereço do médico(a):"+medico.endereco.rua+","+medico.endereco.numero+","+medico.endereco.complemento+","+medico.endereco.bairro+","+medico.endereco.cidade+","+medico.endereco.cep);
+        System.out.println("Endereço do médico(a):"+medico.endereco.rua+","+medico.endereco.numero+","+medico.endereco.complemento+","+medico.endereco.bairro+","+medico.endereco.cidade+","+medico.endereco.uf+","+medico.endereco.cep);
 
       System.out.println("                              ");
         
     }
 }
-  
   
