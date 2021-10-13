@@ -9,8 +9,6 @@ public class Post {
 
     this.texto = texto;
     this.link = link;
-    this.numeroCurtidas =0;
-    this.numeroCompartilhamentos = 0;
 }
  public void curtir() {
 this.numeroCurtidas +=1;
@@ -20,4 +18,3 @@ this.numeroCompartilhamentos +=1;
  }
 }
  
-  
