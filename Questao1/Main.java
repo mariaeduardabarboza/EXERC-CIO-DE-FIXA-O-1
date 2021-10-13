@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Tipo Sanguíneo:"+paciente.tipoSanguineo);
 
    System.out.println("                              ");
-   System.out.println("Modificações dados mãe:       ");
+   System.out.println("Dados mãe do paciente:       ");
    
  paciente.codigo = "039875375";
  paciente.nome = "Karla Mônica Alcântara Barboza";
