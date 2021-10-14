@@ -1,10 +1,11 @@
 public class Main {
       public static void main(String[] args) {
        
-      Paciente paciente = new Paciente("038953815","Maria Eduarda Barboza Santos", "14/06/2004", "Planserv", "Feminino","Nenhuma", "O positivo");
+      Paciente paciente = new Paciente("038953815","Maria Eduarda Barboza Santos", "14/06/2004","Feminino", "Planserv","Nenhuma", "O positivo");
         System.out.println("Codigo:"+paciente.codigo);
         System.out.println("Nome:"+paciente.nome);
         System.out.println("Data Nascimento:"+paciente.dataNascimento);
+        System.out.println("Plano de Saúde:"+paciente.planoSaude);
         System.out.println("Sexo:"+paciente.sexo);
         System.out.println("Alergia:"+paciente.alergia);
         System.out.println("Tipo Sanguíneo:"+paciente.tipoSanguineo);
@@ -22,6 +23,7 @@ public class Main {
         System.out.println("Codigo:"+paciente.codigo);
         System.out.println("Nome:"+paciente.nome);
         System.out.println("Data Nascimento:"+paciente.dataNascimento);
+        System.out.println("Plano de Saúde:"+paciente.planoSaude);
         System.out.println("Sexo:"+paciente.sexo);
         System.out.println("Alergia:"+paciente.alergia);
         System.out.println("Tipo Sanguíneo:"+paciente.tipoSanguineo);
