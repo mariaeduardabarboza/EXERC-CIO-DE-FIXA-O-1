@@ -3,6 +3,9 @@ public class Main {
 
   Aluno aluno = new Aluno("Maria Eduarda Barboza Santos", "03896585598");
 
+  System.out.println("Nome:"+aluno.nome);
+   System.out.println("Nome:"+aluno.cpf);
+
   aluno.nota1 = 10.0;
   aluno.nota2 = 9.0;
   aluno.nota3 = 8.0;
