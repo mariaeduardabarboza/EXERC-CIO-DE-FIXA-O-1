@@ -1,4 +1,3 @@
- public Aluno
  public class Aluno {
 	
 	    String nome;
